@@ -6,4 +6,5 @@
 - pip install fastapi[all]
 # Check all dependencies installed 
 - pip freeze 
-
+# Run the live server 
+- uvicorn main:app --reload
